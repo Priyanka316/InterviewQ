@@ -1,0 +1,73 @@
+button{
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(62, 68, 239);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(106, 106, 178);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Open+Sans&family=Pacifico&family=Playfair+Display:ital@1&family=Rubik+Moonrocks&display=swap');
+
+h2{
+    font-family: 'Great Vibes', cursive; 
+}
+p{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.box{
+    background-color: rgb(241, 191, 10);
+    width: 200px;
+    margin: 20px  ;
+    height: 100px;
+    transition: width 2s;
+}
+.box:hover{
+    width: 400px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 10px; ;
+    background-color: rgb(228, 95, 117);
+}
+.media{
+    background-color: yellow;
+    color: #890c0c;
+}
+@media (min-width:400px)and(max-width:600px) {
+    .media{
+        
+    }
+}
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    animation-name: priya;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes priya{
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: aqua;
+    }
+}
+
+
