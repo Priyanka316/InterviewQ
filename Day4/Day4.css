@@ -1,0 +1,252 @@
+button{
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(62, 68, 239);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(106, 106, 178);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Open+Sans&family=Pacifico&family=Playfair+Display:ital@1&family=Rubik+Moonrocks&display=swap');
+
+h2{
+    font-family: 'Great Vibes', cursive; 
+}
+p{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.box{
+    background-color: rgb(241, 191, 10);
+    width: 200px;
+    margin: 20px  ;
+    height: 100px;
+    transition: width 2s;
+}
+.box:hover{
+    width: 400px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border:2px solid brown;
+    margin-left: 10px; ;
+    background-color: rgb(228, 95, 117);
+}
+.media{
+    background-color: yellow;
+    color: #890c0c;
+}
+@media (min-width:400px)and(max-width:600px) {
+    .media{
+        
+    }
+}
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    animation-name: priya;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin: 10px;
+}
+
+@keyframes priya{
+    0%{
+        background-color: yellow;
+        width: 30px;
+        height: 30px;
+    }
+    25%{
+        background-color: blueviolet;
+        width: 90px;
+        height: 90px;
+    }
+    50%{
+        background-color: red;
+        width: 120px;
+        height: 120px;
+    }
+    100%{
+        background-color: aqua;
+        width: 170px;
+        height: 170px;
+    }
+}
+h1{
+    color: #ef7fb3;
+}
+h4{
+    font-size: larger;
+    color: #b10c27;
+}
+.masterHead {
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    background-image: url("./prep.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+  
+  #para {
+    font-family: "times new roman", cursive;
+    font-size: 30px;
+    color: #ff0062;
+  }
+  .button{
+    background-color: #d7f480;
+    width: 180px;
+    height: 60px;
+    color: black;
+    margin-left: 20px;
+  }
+  
+  .buttons {
+    background-color: coral;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .second {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: #e9e9e9;
+    box-shadow: 0 0 5px grey;
+    height: 75px;
+  }
+  
+  .second img {
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  ul {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  .flex-container {
+    display: inline-flex;
+  }
+  .flex {
+    width: 150px;
+    height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+    background-color: #22e9e2;
+    border: 2px solid rgb(0, 179, 255);
+    text-align: center;
+    margin: 25px;
+    padding: 80px 0;
+    box-sizing: border-box;
+  }
+ 
+  @media screen and (max-width: 1000px) {
+    .flex-container {
+      display: inline;
+      flex-direction: row;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 500px) {
+    .changes{
+      background-color: goldenrod
+    }
+  @media screen and (min-width: 500px) and (max-width: 999px) {
+    .changes {
+      background-color: purple;
+    }
+  }
+ 
+  }
+  
+  .flex-container-box {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #8ed598;
+  }
+  
+  .flex-container-box  div {
+    background-color: rgb(227, 247, 110);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+  }
+  
+  .box2 {
+    margin: 20px;
+    border: 2px solid #f00f0f;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #ef7fb3;
+    transition: width 3s, height 3s, background-color 2s, transform 2s;
+  }
+  
+  .box2:hover {
+    background-color: rgb(60, 244, 225);
+    width: 200px;
+    height: 200px;
+    transform: rotate(90deg);
+  }
+  
+  .transform {
+    width: 150px;
+    height: 80px;
+    background-color: #8a5ff5;
+    transform: rotate(-40deg) ;
+    margin-left: 20px;
+  }
+  .transform1{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: skewY(-30deg);
+    margin-left: 20px;
+}
+  
+.combinators{
+    color: burlywood;
+    font-size: larger;
+}
+a:link {
+    color: red;
+  }
+  a:hover {
+      color: palevioletred;
+  }
+  a:visited {
+    color: purple;
+  }
+
+
